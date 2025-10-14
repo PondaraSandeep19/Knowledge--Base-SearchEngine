@@ -21,4 +21,4 @@ Designed to provide fast and intuitive search experiences.
 ---
 
 ##  Demo Video
- [Watch the demo here]([https://drive.google.com/file/d/15Y62Z2FOrYV2gbn-CqvOy1TuFKkCYVeJ/view?usp=sharing](https://drive.google.com/file/d/1zqgcppediBgMcdgudypPX_xDTgx3kI_A/view?usp=sharing))
+ https://drive.google.com/file/d/15Y62Z2FOrYV2gbn-CqvOy1TuFKkCYVeJ/view?usp=sharing](https://drive.google.com/file/d/1zqgcppediBgMcdgudypPX_xDTgx3kI_A/view?usp=sharing
