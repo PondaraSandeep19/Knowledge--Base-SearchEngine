@@ -13,10 +13,16 @@ Designed to provide fast and intuitive search experiences.
 
 ---
 
-##  Tech Stack
-- **Frontend:** Vite + React + TypeScript  
-- **Styling:** Tailwind CSS  
-- **Database:** SQLite (via Drizzle ORM)
+## Tech Stack
+- **Frontend:** React.js + Vite  
+- **Styling:** Tailwind CSS + Radix UI + Framer Motion  
+- **Backend:** Express.js (Node.js)  
+- **Database:** PostgreSQL / NeonDB (via Drizzle ORM)  
+- **AI & LLM Integration:** Google Gemini (@google/genai)  
+- **Validation & Forms:** Zod + React Hook Form  
+- **Charts / Visualization:** Recharts  
+- **Authentication:** Passport.js (Local strategy, Sessions)
+
 
 ---
 
