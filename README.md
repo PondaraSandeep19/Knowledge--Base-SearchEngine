@@ -62,38 +62,7 @@ npm run start
 
 The `build` script runs `vite build` for the client and `esbuild` to bundle `server/index.ts` into `dist/`.
 
-## Database
-During development this project uses a local SQLite DB (`dev.db`). The repo contains `drizzle` tooling; see `drizzle.config.ts` and the `db:push` script:
 
-```powershell
-npm run db:push
-```
-
-Do NOT commit `dev.db` to the repo. It is now added to `.gitignore`.
-
-## Security & publishing to GitHub (important)
-Before pushing this repository to GitHub, make sure you:
-
-1. Remove secrets and local files from the index
-   ```powershell
-   git rm --cached .env
-   git rm --cached dev.db
-   git rm --cached -r node_modules
-   git add .gitignore
-   git commit -m "Remove local secrets & DB; update .gitignore"
-   git push
-   ```
-
-2. Rotate any API keys that were committed previously. Removing a key from git history does not revoke the key — you must rotate it in the provider console.
-
-3. If secrets were already pushed and you need to remove them from history, use a history-rewrite tool such as BFG or `git filter-repo`. Rewriting history requires force-push and coordination with collaborators.
-
-Recommended short checklist before publishing:
-- [ ] `.env` removed from Git and replaced with `.env.example`
-- [ ] `dev.db` and other local DB files not tracked
-- [ ] `node_modules/` not tracked
-- [ ] `dist/` not tracked
-- [ ] Large assets in `attached_assets/` reviewed (use Git LFS if needed)
 
 ## Project structure
 ```
