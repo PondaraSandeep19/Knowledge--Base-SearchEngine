@@ -109,9 +109,4 @@ attached_assets/ # Uploaded assets (review before pushing)
 
 
 
----
 
-If you'd like, I can also:
-- create a small GitHub-friendly `.gitignore` PR (already updated locally),
-- remove tracked `.env`/`dev.db` from Git index for you, or
-- prepare an example `deploy.md` describing how to set secrets in common providers (Vercel, Netlify, Render, Heroku, etc.).
