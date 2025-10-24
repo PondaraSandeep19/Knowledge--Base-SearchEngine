@@ -107,9 +107,7 @@ attached_assets/ # Uploaded assets (review before pushing)
 - Use feature branches.
 - Keep secrets out of the repo — use environment variables in CI/providers.
 
-## Notes
-- I updated `.gitignore` to ignore `dev.db`, `*.db`, `*.sqlite`, `.vscode/` and `.local/` as well as local `.env` variants.
-- If you want, I can run the git checks for you and remove tracked files from the index.
+
 
 ---
 
